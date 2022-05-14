@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    images: centos:7
+    stdin_open: true
+    tty: true
+    command: /bin/bash
+  db:
+    image: centos:7
+    stdin_open: true
+    tty: true
+    command: /bin/bash
